@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-header-text{
+    background-color: #fff;
+}
+
+.liste-menu{
+
+    list-style: none;
+    display: flex;
+}
+
+.liste-menu li{
+  margin: 0 30px;
+}
+
+.liste-menu li a{
+    font-size: 20px;
+    color: #000;
+}
+
+
+.one-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.small-nav{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.lien-logo{
+    font-size: 20px;
+    color: #000;
+    margin-left: 70px;
+    font-family: 'Quintessential', cursive;
+}
+
+.connect{
+    border-right: 1px solid #000;
+    padding-right: 8px;
+}
+
+.Search{
+    margin-bottom: 10px;
+}
+
+
+/* hearder-image */
+
+
+.card-body{
+    background: url(image/halloween.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    text-align:start;
+    position: relative;
+}
+
+.card-text{
+    width: 600px;
+    position: absolute;
+    top: 30%;
+    right: 5%;
+}
+
+.card-title{
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.card-graphe{
+    color: #f1f1f1;
+    font-size: 25px;
+}
+
+
+/* partie text */
+
+.graphe-text-body{
+    font-size: 20px;
+}
+
+section{
+    padding: 70px;
+}
+
+.card{
+    border: 0;
+    background-color: black;
+}
+
+.text-tow{
+    margin-top: 40px;
+}
+
+
+.row-title{
+    padding: 20px 0;
+    border-top: 1px solid #000;
+    font-weight: bold;
+}
+
+.lien{
+    font-size: 20px;
+    transition: 2s ease-in-out;
+}
+
+.lien:hover{
+    text-decoration: underline;
+}
+
+/* .box-liens{
+    padding-top:20px;
+} */
+
+.icone{
+    margin: 20px 0;
+}
+
+.row-2{
+    margin-top: 20px;
+}
+
+.lien-text{
+    color: #000;
+}
+
+.text-graphe{
+    margin-top: 20px;
+    color: #2251ff;
+}
+
+.text-graphe:hover{
+    color: #000;
+}
+
+.card-bloc img{
+    width: 100%;
+}
+
+.bloc-col:hover{
+    color: #000;
+    padding:30px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.liens-title{
+    padding-top: 20px;
+}
+
+.liens-title h1{
+    font-size: 50px;
+    color: #000;
+}
+
+.col-text{
+    padding: 8% 0 0 8%;
+}
+
+.paragraphe{
+    font-size: 20px;
+    margin-top: 60px;
+    color: #2251ff;
+}
+
+.paragraphe2{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.col-flex{
+    display: flex;
+}
+
+.img-circle{
+    width: 400px;
+    height:120px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.363);
+}
+
+.img-circle img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.text-left{
+    margin-left: 20px;
+}
+
+.title-img h4{
+    font-size: 50px;
+    color: #000;
+}
+
+.title-img h4:hover{
+    color: #3982c6;
+}
+
+.graphe-img{
+    font-size: 25px;
+}
+
+.button-bottom{
+    width: 200px;
+    height: 45px;
+    margin-left: 500px;
+    margin-top: 30px;
+    border: 1px solid #2251ff;
+    color: #2251ff;
+    background-color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.button-bottom:hover{
+    background-color: #2251ff;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.row-bottom{
+    padding-top: 20px;
+}
